@@ -1,0 +1,4 @@
+matcomp
+*.o
+*.out
+output_*.txt

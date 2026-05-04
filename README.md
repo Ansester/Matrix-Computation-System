@@ -14,6 +14,31 @@ This project is a matrix computation system developed as part of a Data Structur
 
 The Matrix Computation System allows users to perform different matrix operations through a command-line interface. The operations supported include importing matrices from files, exporting matrices to files, adding and multiplying matrices, and displaying matrices in different formats.
 
+## Quick Start
+
+```bash
+make
+./matcomp
+```
+
+The repository includes two sample sparse matrices:
+
+- `sample_matrix_a.txt`
+- `sample_matrix_b.txt`
+
+Example commands:
+
+```text
+import sample_matrix_a.txt
+import sample_matrix_b.txt
+display2D A
+display2D B
+add A B
+display2D A
+export A output_matrix.txt
+exit
+```
+
 ## Features
 
 - **Import Matrix**: Read a matrix from a specified file.
@@ -49,6 +74,7 @@ Here is the list of available commands:
 - `linkedmatrix.cpp`: Implementation file for the linked matrix operations.
 - `matcomp.h`: Header file for matrix computation logic.
 - `matcomp.cpp`: Implementation file for matrix computation operations.
+- `sample_matrix_a.txt`, `sample_matrix_b.txt`: Example sparse-matrix inputs.
 
 ### Classes and Methods
 

@@ -114,7 +114,7 @@ void MatComp::exportMat(char matrix1_ID, string filename)
 	int index = toupper(matrix1_ID) - 'A'; //convert the given matrix ID to integer
 	
 	ofstream outfile (filename,ios::out); //creates output file stream
-	if (!outfile.fail()) {
+	if (outfile.fail()) {
 		throw runtime_error("Failed to open file"); //throws exception if there is an error opening the file
 	}
 	
