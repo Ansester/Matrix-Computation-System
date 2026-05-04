@@ -1,18 +1,6 @@
 # Matrix Computation System
 
-## Overview
-
-This project is a matrix computation system developed as part of a Data Structures assignment. It provides functionalities to perform various matrix operations such as import, export, addition, multiplication, and display of matrices.
-
-## Author
-
-- **Name**: Ashmit Mukherjee
-- **Version**: 1.0
-- **Date Created**: 28-02-2023
-
-## Description
-
-The Matrix Computation System allows users to perform different matrix operations through a command-line interface. The operations supported include importing matrices from files, exporting matrices to files, adding and multiplying matrices, and displaying matrices in different formats.
+A C++ command-line tool for sparse-matrix computation. The system represents matrices as linked structures rather than dense 2D arrays, supporting import, export, scalar and matrix multiplication, addition, and two display modes through an interactive prompt.
 
 ## Quick Start
 
